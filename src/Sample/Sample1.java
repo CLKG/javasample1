@@ -15,7 +15,8 @@ public class Sample1 {
 		log.info("Info Message");
 		log.error("Error Message");
 		log.warn("Warning Message");
-
+log.warn("Warning Message");
+		
 	}
 
 }
