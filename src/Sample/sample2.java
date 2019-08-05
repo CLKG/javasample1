@@ -26,6 +26,7 @@ public class sample2 {
 		log.info("information");
 		log.error("Error message");
 		log.warn("Warning messgae");
+		log.error("Error message");
 		
 	}
 
