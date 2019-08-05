@@ -1,10 +1,20 @@
 package Sample;
 
-public class Sample1 {
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Logger;
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hi");
+public class Sample1 {
+	
+	@Test
+	public void console()
+	{
+		BasicConfigurator.configure();
+		Logger log = Logger.getLogger(this.getClass().getName());
+		
+		log.info("Info Message");
+		log.error("Error Message");
+		log.warn("Warning Message");
 
 	}
 
