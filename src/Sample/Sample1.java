@@ -17,6 +17,7 @@ public class Sample1 {
 			log.error("Error Message");
 		log.warn("Warning Message");
 log.warn("Warning Message");
+			log.error("Error Message");
 		
 	}
 
